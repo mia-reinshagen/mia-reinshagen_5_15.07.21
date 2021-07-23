@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Orinoco</title>
+</head>
+<style>
+    body {
+      font-family: 'Courier New', monospace;}
+    </style>
+
+<body>
+    <div class="container">
+        <header>
+            <logo><img src="../back_end/images/logo.png" alt="logo" style="width:20%"></logo>
+            <nav>
+                <ul id=menu>
+                    <li><a href="index.html" style="text-decoration:none">Produits</a>
+
+                    <li><a href="panier.html" style="text-decoration:none"><i href="#panier.html"
+                                class="fas fa-shopping-basket"></i></a>
+
+
+                </ul>
+            </nav>
+        </header>
+        
+        <section id="formulaire">
+            <h2>Veuillez remplir le formulaire</h2>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                    <li id="civilite">
+                        <label for="nom">Civilié:</label>
+                        <input type=radio name=civilite value="mademoiselle">Mademoiselle
+                            <input type=radio name=civilite value="madame" checked>Madame
+                          <input type=radio name=civilite value="monsieur">Monsieur
+                    </li>
+                    <li>
+                        <label for="nom">Nom:</label>
+                        <input type="text" id="nom" name="user_name">
+                    </li>
+                    <li>
+                        <label for="prenom">Prénom:</label>
+                        <input type="text" id="nom" name="user_name">
+                    </li>
+                    <li>
+                        <label for="mail">E-mail:</label>
+                        <input type="email" id="mail" name="user_email">
+                    </li>
+                    <li>
+                        <label for="adresse">Adresse:</label>
+                        <input type="adresse" id="adresse" name="user_adresse">
+                    </li>
+                    <li>
+                        <label for="ville">Ville:</label>
+                        <input type="ville" id="ville" name="user_email">
+                    </li>
+                    <li>
+                        
+                    <label for="teddy">Pays:</label>
+                    <select name=pays>
+                        <option>France
+                       <option>Italie
+                       <option selected>Suisse
+                     </select>
+                    </li>
+                </ul>
+                <a id="commander" href="#" title="">Commander</a>
+            </form>
+        </section>
+
+</body>
+
+</html>

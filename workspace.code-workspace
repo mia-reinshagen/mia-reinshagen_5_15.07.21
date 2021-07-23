@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "exercice_3_JS_calculette"
+		},
+		{
+			"path": "algorythmes"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "algorythmes"
+	}
+}
