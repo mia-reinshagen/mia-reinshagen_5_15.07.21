@@ -181,3 +181,19 @@ h2{
     margin-left: 70px;
 }
 
+.bouton{
+  background-color: violet;
+  font-family: 'Courier New', monospace;
+  font-weight: bold;
+  color: white;
+width: 100px;
+height: 40px;
+
+}
+
+#bouton_box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
