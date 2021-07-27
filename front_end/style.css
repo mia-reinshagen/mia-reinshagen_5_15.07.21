@@ -1,199 +1,189 @@
 #menu {
-    position: fixed;
-    display: flex;
-    right: 0;
-    margin-top: -3.2em;
-    padding-right: 20px;
-    text-decoration: none;
-    align-items: center;
-    justify-content: center;
-    font-size: larger;
-  }
+  position: fixed;
+  display: flex;
+  right: 0;
+  margin-top: -3.2em;
+  padding-right: 20px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+}
 
-  #menu li{
-    
-    font-weight: bold;
-    text-decoration: none;
-    list-style-type: none;
-    color: black;
-    padding: 9px;
-  }
+#menu li {
+  font-weight: bold;
+  text-decoration: none;
+  list-style-type: none;
+  color: black;
+  padding: 9px;
+}
 
-  #menu li a{
-    
-    color: black;
-    
-  }
+#menu li a {
+  color: black;
+}
 
-  #menu li a:hover{
-      text-decoration: none;
-      list-style-type: none;
-      color: blueviolet;
-  }
+#menu li a:hover {
+  text-decoration: none;
+  list-style-type: none;
+  color: blueviolet;
+}
 
-  .rating a {
-    color: orange;
-    text-decoration: none;
-    font-size: 1.5em;
-    transition: color .4s;
- }
- .rating a:hover,
- .rating a:focus {
-    color: orange;
-    cursor: pointer;
- }
-
+.rating a {
+  color: orange;
+  text-decoration: none;
+  font-size: 1.5em;
+  transition: color 0.4s;
+}
+.rating a:hover,
+.rating a:focus {
+  color: orange;
+  cursor: pointer;
+}
 
 .container header logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #f1eaf0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f1eaf0;
 }
 
 #products {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: row;
-    
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
 }
 
-.card{
-
-    border: 5px solid #f1eaf0;
-    border-radius: 30px;
-    margin:10px;
-    height: 550px;
-    position: relative;
-  
+.card {
+  border: 5px solid #f1eaf0;
+  border-radius: 30px;
+  margin: 10px;
+  height: 550px;
+  position: relative;
 }
 
 .card img {
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    height: 250px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  height: 250px;
 }
 
-.cardcontainer{
-    padding: 20px;
+.cardcontainer {
+  padding: 20px;
 }
 
-
-.cardcontainer .btn{
-    background-color: #f1eaf0;
-    border: 3px solid #f1eaf0;
-    border-radius: 200px;
-    font-family:'Times New Roman', Times, serif;
-    text-decoration: none;
-    padding: 8px;
-    font-family: 'Courier New', monospace;
-    font-weight: bold;
-
+.cardcontainer .btn {
+  background-color: #f1eaf0;
+  border: 3px solid #f1eaf0;
+  border-radius: 200px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  padding: 8px;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
 }
 
-#besteller{
-    background-color: blueviolet;
-    border-radius: 4px;
-    padding: 8px;
-    text-decoration: none;
-    color: wheat;
-    position: absolute;
-    right: 20px;
-    margin-top: 15px;
-    
+#besteller {
+  background-color: blueviolet;
+  border-radius: 4px;
+  padding: 8px;
+  text-decoration: none;
+  color: wheat;
+  position: absolute;
+  right: 20px;
+  margin-top: 15px;
 }
 
-h2{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
+h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
 }
 #formulaire {
-   
-    margin: 0 auto;
-    width: 580px;
-    padding: 2em;
-    border: 3px solid blueviolet;
-    border-radius: 1em;
-  }
-
-  #civilite{
-    display: flex;
-    flex-direction: row;
-}
-  
-  ul {
-    list-style: none;
-  }
-  
-  form li + li {
-    margin-top: 2em;
-  }
-  
-  label {
-    display: inline-block;
-    width: 90px;
-    text-align: center;
-  }
-  
-  input,
-  textarea {
-   
-    font: 1em sans-serif;
-    width: 300px;
-    box-sizing: border-box;
-  
-    border: 2px solid #999;
-  }
-  
-  input:focus,
-  textarea:focus {
-    /* Additional highlight for focused elements */
-    border-color: #000;
-  }
-  
-  textarea {
-    vertical-align: top;
-    height: 5em;
-  }
-  
-  .button {
-    padding-left: 10px; 
-  }
-  
-  button {
-    margin-left: .5em;
-  }
-
-  #commander{
-
-    background-color: violet;
-    padding:10px;
-    border-radius: 5px;
-    color: white;
-    text-decoration: none;
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: 60px;
-    margin-left: 70px;
+  margin: 0 auto;
+  width: 580px;
+  padding: 2em;
+  border: 3px solid blueviolet;
+  border-radius: 1em;
 }
 
-.bouton{
+#civilite {
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  list-style: none;
+}
+
+form li + li {
+  margin-top: 2em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: center;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+
+  border: 2px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 10px;
+}
+
+button {
+  margin-left: 0.5em;
+}
+
+#commander {
   background-color: violet;
-  font-family: 'Courier New', monospace;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 60px;
+  margin-left: 70px;
+}
+
+.bouton {
+  background-color: violet;
+  font-family: "Courier New", monospace;
   font-weight: bold;
   color: white;
-width: 100px;
-height: 40px;
-
+  width: 100px;
+  height: 40px;
 }
 
-#bouton_box{
+#bouton_box {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+input#teddy {
+  background-color: aquamarine;
 }

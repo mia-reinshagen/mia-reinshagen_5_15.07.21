@@ -1,3 +1,2 @@
 getProducts();
 
-Bonjour("maria");
