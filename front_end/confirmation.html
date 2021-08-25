@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <script src="confirmatiom.js" defer> </script>
+    <script src="panier.js" defer> </script>
     <title>Orinoco</title>
 </head>
 <style>
@@ -29,57 +30,18 @@
                     <li><a href="panier.html" style="text-decoration:none"><i href="#panier.html"
                                 class="fas fa-shopping-basket"></i></a>
                 </ul>
+                <div class="nombre_produit">
+                    0
+                  </div>
+                  <h1 id="h1"></h1>
             </nav>
         </header>
 
-        <section>
-            <h2 id="h2">Veuillez remplir le formulaire</h2>
-            <div id="formulaire">
-                <form action="/my-handling-form-page" method="post">
-                    <ul>
-                        <li id="civilite">
-                            <label for="nom">Civilié:</label>
-                            <input type=radio id="civilite" name=civilite value="mademoiselle">Mademoiselle
-                            <input type=radio id="civilite" name=civilite value="madame" checked>Madame
-                            <input type=radio id="civilite" name=civilite value="monsieur">Monsieur
-                        </li>
-                        <li>
-                            <label for="nom">Nom:</label>
-                            <input type="text" id="nom" name="user_name">
-                        </li>
-                        <li>
-                            <label for="prenom">Prénom:</label>
-                            <input type="text" id="prenom" name="user_name">
-                        </li>
-                        <li>
-                            <label for="mail">E-mail:</label>
-                            <input type="email" id="mail" name="user_email">
-                        </li>
-                        <li>
-                            <label for="adresse">Adresse:</label>
-                            <input type="adresse" id="adresse" name="user_adresse">
-                        </li>
-                        <li>
-                            <label for="ville">Ville:</label>
-                            <input type="ville" id="ville" name="user_email">
-                        </li>
-                        <li>
-                            <label for="teddy">Pays:</label>
-                            <select name=pays>
-                                <option>France
-                                <option>Italie
-                                <option selected>Suisse
-                            </select>
-                        </li>
-                    </ul>
-                    <div id="bouton_box">
-                        <button class="bouton" id="bouton">Commander</button>
-                        <button class="bouton" id="clear">Supprimer</button>
-                    </div>
-                </form>
-            </div>
-        </section>
+<div id="confirmation"></div>
+        
 
 </body>
-
+<footer>
+    <p>Site fait avec amour</p>
+  </footer>
 </html>
