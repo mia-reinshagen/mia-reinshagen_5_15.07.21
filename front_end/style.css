@@ -11,16 +11,26 @@ html {
 #bloc_page {
   width: auto;
   box-sizing: border-box;
+  height: 100vh;
 }
 
 /* header */
 
 header {
+  grid-area: header;
   width: auto;
   display: flex;
   flex-direction: row;
   align-items: center;
   background-color: #f1eaf0;
+}
+
+.titre {
+  grid-area: titre;
+}
+
+section {
+  grid-area: section;
 }
 
 .container header logo {
@@ -62,7 +72,7 @@ nav li a:hover {
 
 .nombre_produit {
   position: absolute;
-  right: -6px;
+  right: 50px;
   top: 1px;
   background-color: violet;
   width: 20px;
@@ -247,6 +257,7 @@ select#teddy {
 }
 
 footer {
+  grid-area: footer;
   margin-top: 30px;
   background-color: #f1eaf0;
   width: 100%;

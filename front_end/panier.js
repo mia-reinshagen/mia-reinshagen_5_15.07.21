@@ -75,10 +75,7 @@ function orderTeddies() {
         };
 
         localStorage.setItem("recapnewCommand", JSON.stringify(recapnewCommand)); // enregister recapiltualif commande dans localstorage
-        if (localStorage.getItem("recapnewCommand") != null)
-            h1.textContent = `Merci pour votre commande ${(localStorage.getItem("recapnewCommand"))}`;
-
-        window.location.href = "./confirmation.html";
+            window.location.href = "./confirmation.html";
     });
 }
 
@@ -235,6 +232,23 @@ const validcity = function (inputcity) {
         return false;
     }
 };
+
+async function sendOrder(commande) {
+    try {
+        let response = await fetch("http://localhost:3000/api/teddies/order", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            }, // enyvoer un type de donné json
+            body: commande,
+        }); // on attend une reponse
+        let data = await response.json();
+        return data;
+
+    } catch (error) {
+        console.log(error); // au cas ou on retrouve pas les teddy
+    }
+}
 
 
 showCart()

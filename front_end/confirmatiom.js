@@ -1,2 +1,8 @@
-if (localStorage.getItem("recapnewCommand") != null)
-            h1.textContent = `Merci pour votre commande ${(localStorage.getItem("recapnewCommand"))}`;
+if (localStorage.getItem("recapnewCommand") != null) {
+    let confirmation = JSON.parse(localStorage.getItem("recapnewCommand"));
+    console.log(confirmation);
+    recap.textContent = confirmation.orderId;
+    recap_nom.textContent = confirmation.name;
+    recap_total.textContent = confirmation.total;
+}
+            
